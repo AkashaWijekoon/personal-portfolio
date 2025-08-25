@@ -59,12 +59,6 @@ nav {
       gap: 50px; 
     }
 
-    .text-section h1 {
-      font-size: 50px;
-      color: #3498db;
-      margin: 80px;
-    }
-
     .text-section p {
       max-width: 400px;
     }
@@ -77,6 +71,7 @@ nav {
       text-decoration: none;
       font-weight: bold;
       display: inline-block;
+      margin-top: 15px;
     }
 
 li{
@@ -127,24 +122,26 @@ form button {
 form button:hover {
   background: #555;
 }
-.contact-left {
-  text-align: right;   /* All content goes to right side */
-  padding: 20px;
+.contact-details {
+  text-align: left;   /* All content goes to right side */
+  
 }
 
-.social-icons {
+.home-social-icons {
   margin-top: 15px;
 }
 
-.social-icons a {
+.home-social-icons a {
   font-size: 24px;       /* icon size */
   color: #e1d7d7;           /* icon color */
+  margin-top: 10px;
   margin-left: 10px;     /* space between icons */
+  margin-bottom: 10px;
   text-decoration: none; /* remove underline */
   transition: color 0.3s;
 }
 
-.social-icons a:hover {
+.home-social-icons a:hover {
   color: #cdd3e1;        /* change color on hover */
 }
 
