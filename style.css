@@ -32,15 +32,27 @@ nav {
   color: #60a5fa;
 }
 
+.home-section {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  
+}
+.home-image-section img {
+      width: 300px;
+      height: auto;
+      border-radius: 20px; 
+    }
 
 .section {
   padding: 4rem 2rem;
   max-width: 900px;
   margin: auto;
+  justify-content: center;
   
 }
-
-
     .container {
       display: flex;
       align-items: center;
@@ -54,7 +66,7 @@ nav {
     }
 
     .text-section p {
-      margin: 10px 0;
+      max-width: 400px;
     }
 
     .btn {
@@ -66,15 +78,6 @@ nav {
       font-weight: bold;
       display: inline-block;
     }
-
-    .image-section img {
-      width: 320px;
-      height: 320px;
-      object-fit: cover;
-      border-radius: 0; 
-    }
-
-
 
 li{
   margin-bottom: 10px;
