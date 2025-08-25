@@ -1,0 +1,26 @@
+[
+  { 
+    "id": 1,
+    "title": "Personal Portfolio",
+    "description": "This is a detailed description of my first project. It showcases my skills in responsive web design.",
+    "technologies": ["HTML", "CSS","JavaScript"],
+    "image": "image/project Images/project1.png",
+    "github": "https://github.com/AkashaWijekoon/personal-portfolio"
+  },
+  {
+    "id": 2,
+    "title": "Project 2",
+    "description": "An interactive web application with dynamic content loading and user authentication.",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "image": "image/project2.jpg",
+    "github": "https://github.com/AkashaWijekoon/project2"
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "description": "A single-page application built with React, featuring state management and API integration.",
+    "technologies": ["React", "JavaScript", "CSS"],
+    "image": "image/project3.jpg",
+    "github": "https://github.com/AkashaWijekoon/project3"
+  }
+]

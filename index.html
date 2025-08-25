@@ -6,22 +6,23 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <!-- Navigation -->
   <nav>
     <div class="logo">My Portfolio</div>
     <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Home -->
-  <div class="home-section">
+  <div id="home" class="home-section">
     <div class="home-text-section">
       <h1>Hi<br>I'm Akasha</h1>
       <p>Future Web Developer with a passion for design & technology.</p>
@@ -64,27 +65,10 @@ My goal is to continue improving my skills, contribute to meaningful projects, a
   </section>
 
   <!-- Projects -->
-     <section id="projects" class="section">
+  <section id="projects" class="section">
     <h2>Projects</h2>
-    <div class="projects">
-      <div class="project">
-        <h3>Project 1</h3>
-        <p>Short description...</p>
-        <p><b>Technologies:</b> HTML, CSS</p>
-        <a href="#">GitHub Link</a>
-      </div>
-      <div class="project">
-        <h3>Project 2</h3>
-        <p>Short description...</p>
-        <p><b>Technologies:</b> JavaScript</p>
-        <a href="#">GitHub Link</a>
-      </div>
-      <div class="project">
-        <h3>Project 3</h3>
-        <p>Short description...</p>
-        <p><b>Technologies:</b> React</p>
-        <a href="#">GitHub Link</a>
-      </div>
+    <div class="projects" id="projects-container">
+      <!-- Projects will be loaded dynamically from projects.json -->
     </div>
   </section>
 
@@ -112,9 +96,6 @@ My goal is to continue improving my skills, contribute to meaningful projects, a
   <footer>
     <p>&copy; 2025 Akasha Wijekoon | Portfolio</p>
   </footer>
-
-
-  
 </body>
 </html>
 
